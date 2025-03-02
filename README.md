@@ -1,14 +1,32 @@
-# **Banks_ETL**
+# 🏦 Data Engineering Project -  
 
-## **📌 Project Overview**
-This project focuses on extracting the top 10 largest banks in the world ranked by market capitalization (in billion USD). The extracted data is then transformed into multiple currencies (USD, GBP, EUR, and INR) using exchange rate data from a CSV file. Finally, the processed data is stored both in a CSV file and in a database, allowing managers from different countries to query the data in their respective currencies.
+This repository contains my final project for the IBM Data Engineering course on Coursera. The project involves working with databases, data processing, and analysis.
 
-## **🎯 Objectives**
-The project consists of the following key tasks:
+## 📂 Project Structure
 
-✅ Extract relevant banking data from a specified URL.  
-✅ Transform the market capitalization values into billion USD.  
-✅ Convert the data into different currencies using exchange rates.  
-✅ Load the processed data into a CSV file and a database table.  
-✅ Execute predefined SQL queries on the database.  
-✅ Log the progress of the ETL process with appropriate timestamps.  
+- **`Project/`** - Main project folder containing relevant files.
+- **`Images/`** - Visualizations and reference images.
+- **`Banks.db`** - SQLite database containing bank-related data.
+- **`Largest_banks_data.csv`** - CSV file with information about the largest banks.
+- **`banks_project.py`** - Python script for data extraction, transformation, and loading (ETL).
+- **`exchange_rate.csv`** - CSV file with exchange rate data.
+- **`code_log.txt`** - Log file documenting changes and script execution history.
+- **`README.md`** - Project documentation.
+
+## 🛠️ Technologies Used
+
+- **SQLite** - Database for storing and querying bank data.
+- **Pandas** - Data manipulation and analysis.
+- **Python** - Data processing and automation.
+- **SQL** - Querying structured data.
+
+## 📊 Project Overview
+
+The project consists of:
+1. Extracting financial data from CSV files.
+2. Storing and querying data in an SQLite database.
+3. Performing data transformations using Pandas.
+4. Generating insights and visualizations.
+
+Check out all my projects on my [GitHub](https://github.com/AlejandroFM-MA).
+
